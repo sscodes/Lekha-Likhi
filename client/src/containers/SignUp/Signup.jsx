@@ -35,6 +35,7 @@ const Signup = () => {
       setError("Password must contain at least one number and one capital number...");
       return false;
     }
+    setError('')
     return true;
   }
 
