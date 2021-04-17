@@ -1,5 +1,5 @@
 # Lekha-Likhi
-This is a blogging website where the admin can create and delete blogs. And the users can like and unlike the blogs. It has an authentication and authorisation system. All of these are made using the MERN stack and the global state management is done using redux. For responsiveness of the site, React-Bootstrap is used and for the icons, react-icons is used.
+This is a blogging website where the admin can create and delete blogs. It has an authentication and authorisation system, where the users can sign up to see and like and unlike the blogs. All of these are made using the MERN stack and the global state management is done using redux. For responsiveness of the site, React-Bootstrap is used and for the icons, react-icons is used.
 
 Do visit the site and show some love to my blogs!:D
 
