@@ -1,1 +1,1 @@
-export const api = 'http://localhost:7000/api'
+export const api = 'http://lekha-likhi.herokuapp.com/api'
