@@ -2,7 +2,8 @@
 This is a blogging website where the admin can create and and delete blogs. And the users can like and unlike the blogs. It has an authentication and authorisation system. All of these are made using the MERN stack and the global state management is done using redux. For responsiveess of the site React-Bootstrap is used and for the icons ract-icons is used.
 
 Do visit the site and show some love to my blogs!:D
-Link: http://lekha-likhi.herokuapp.com/blogs - automatic!
+
+Link: http://lekha-likhi.herokuapp.com/blogs 
 [Lekha-Likhi](http://lekha-likhi.herokuapp.com/blogs)
 
 Some screenshots showing how the site looks to an admin but not to a user are given below:
