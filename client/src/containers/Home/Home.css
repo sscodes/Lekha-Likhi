@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Patua+One&display=swap');
+
+.jumbotron
+{
+    margin-top: -105px;
+}
+
+.jumbotron.jumbotron
+{
+    background-color: transparent;
+}
+
+h1
+{
+    font-family: 'Patua One', cursive;
+    font-size: 67.5px;
+    color: #5e35b1;
+    letter-spacing: 4px;
+    margin-top: -10px;
+}
+
+.h6
+{
+    font-family: 'Itim', cursive; 
+    font-size: 40px;
+    color: #5e35b1;
+    letter-spacing: 3px;
+    
+}
+
+hr
+{
+    color: #5e35b1;
+    background-color: #5e35b1;
+    height: 5;
+}
+
+.text1
+{
+    font-family: 'Itim', cursive;
+    font-size: 25px;
+    color: #5e35b1;
+}
+
+.navLink
+{
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+    border: 1px #5e35b1 solid;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #5e35b1;
+    padding: 10px;
+}
+
+.navLink:hover
+{
+    color: white;
+    background-color: #5e35b1;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+

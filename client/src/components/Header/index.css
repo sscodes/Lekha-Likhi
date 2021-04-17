@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Patua+One&display=swap');
+
+.navBrand
+{
+    font-family: 'Patua One', cursive;
+    font-size: 40px;
+    color: #5e35b1;
+    letter-spacing: 2px;
+}
+.navBrand:hover
+{
+    text-decoration: none;
+    color: #5e35b1;
+}
+
+.navbarBorderTop
+{
+    border-top: 2px solid #5e35b1;
+}
+
+.navbarBorderBottom
+{
+    border-bottom: 2px solid #5e35b1;
+}
+
+.navTitles
+{
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+    color: #5e35b1;
+    letter-spacing: 1px;
+    padding: 0 10px 0 10px;
+    cursor: pointer;
+}
+
+.navTitles:hover
+{
+    text-decoration: none;
+    color: #9a72f0;
+}

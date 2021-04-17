@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Patua+One&display=swap');
+
+.btn
+{
+    font-family: 'Itim', cursive;
+    font-size: 25px;
+    color: #5e35b1;
+    background-color: white;
+    border: 1px #5e35b1 solid;
+}
+
+.btn:hover
+{
+    color: white;
+    background-color: #5e35b1;
+}
+
+label
+{
+    font-family: 'Itim', cursive;
+    font-size: 25px;
+    color: #5e35b1;
+}
+
+.mainContent
+{
+    
+    margin-top: 5%;
+}
+
+.errorMsg
+{
+    font-family: 'Itim', cursive;
+    font-size: 25px;
+    background-color: #5e35b1;
+    color: white;
+    margin-top: 50px;
+    padding: 10px;
+    margin-bottom: 50px;
+    border: 1px solid #5e35b1;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}

@@ -1,0 +1,20 @@
+.heading
+{
+    font-family: 'Patua One', cursive;
+    font-size: 75px;
+    color: #5e35b1;
+    letter-spacing: 4px;
+    margin-top: 25px;
+}
+
+.att
+{
+    font-family: 'Itim', cursive;
+    font-size: 30px;
+    color: #5e35b1;
+}
+
+.blogbtn
+{
+    cursor: pointer;
+}
