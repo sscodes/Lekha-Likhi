@@ -49,6 +49,22 @@ const Signup = () => {
       dispatch(signup(user));
   }
 
+  const renderExistError = () => {
+    return (
+      <div className="errorMsg">
+        {'E-mail or phone number already exists...'}
+      </div>
+    );
+  }
+
+  const renderValidationError = () => {
+    return (
+      <div className="errorMsg">
+        {error}
+      </div>
+    );
+  }
+
   if (user.authenticate) {
     return <Redirect to={`/`} />
   }
@@ -66,10 +82,7 @@ const Signup = () => {
       <Container>
         <Row style={{ marginTop: '50px' }}>
           <Col md={{ span: 6, offset: 3 }}>
-            {error ? <div className="errorMsg">
-              {error}
-            </div> : null
-            }
+            {error ? renderValidationError() : user.error ? renderExistError() : null}
             <Form onSubmit={userSignup} className="mainContent">
               <Input
                 label="Name:"

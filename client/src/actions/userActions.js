@@ -1,18 +1,17 @@
 import { userConstants } from "./constants";
 import axiosInstance from "../helpers/axios";
 
-export const signup = (user) => {
+export const signup = (userProp) => {
 
     return async (dispatch) => {
 
-        dispatch({
-            type: userConstants.USER_REGISTER_REQUEST
-        });
-        const res = await axiosInstance.post(`/signup`, {
-            ...user
-        });
-
-        if (res.status === 200) {
+        try {            
+            dispatch({
+                type: userConstants.USER_REGISTER_REQUEST
+            });
+            const res = await axiosInstance.post(`/signup`, {
+                ...userProp
+            });
             const { token, user } = res.data;
             localStorage.setItem('token', token);
             localStorage.setItem('user', JSON.stringify(user));
@@ -23,15 +22,13 @@ export const signup = (user) => {
                 }
             });
         }
-        else {
-            if (res.status === 404) {
-                dispatch({
-                    type: userConstants.USER_REGISTER_FAILURE,
-                    payload: {
-                        error: res.data.error
-                    }
-                });
-            }
+        catch (error) {
+            dispatch({
+                type: userConstants.USER_REGISTER_FAILURE,
+                payload: {
+                    error: error.message
+                }
+            });
         }
     }
 }

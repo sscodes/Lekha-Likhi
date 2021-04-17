@@ -1,14 +1,13 @@
 import { authConstants } from "./constants";
 import axiosInstance from "../helpers/axios";
 
-export const login = (user1) => {
+export const login = (userProp) => {
 
     return async (dispatch) => {
-        let res='';
         try {
             dispatch({ type: authConstants.LOGIN_REQUEST });
-            res = await axiosInstance.post('/signin', {
-                ...user1
+            const res = await axiosInstance.post('/signin', {
+                ...userProp
             });
             const { token, user } = res.data;
             localStorage.setItem('token', token);
@@ -21,7 +20,6 @@ export const login = (user1) => {
             });
         }
         catch (error) {
-            // const { error } = res.data;
             dispatch({
                 type: authConstants.LOGIN_FAILURE,
                 payload: {
