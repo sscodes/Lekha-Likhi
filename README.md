@@ -4,7 +4,6 @@ This is a blogging website where the admin can create and delete blogs. It has a
 Do visit the site and show some love to my blogs!:D
 
 Link: http://lekha-likhi.herokuapp.com/ 
-(http://lekha-likhi.herokuapp.com/blogs)
 
 Some screenshots showing how the site looks to an admin but not to a user are given below:
 
